@@ -2,7 +2,7 @@
 import React, { useEffect, useState } from 'react';
 import io from 'socket.io-client';
 
-const socket = io('http://localhost:3001'); // Replace with your server URL
+const socket = io('https://real-time-request-lgo-api.onrender.com'); // Replace with your server URL
 
 function App() {
   const [events, setEvents] = useState([]);
